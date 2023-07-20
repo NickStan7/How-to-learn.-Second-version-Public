@@ -76,6 +76,21 @@
   z-index: 1;
 }
 
+@keyframes rotation {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+/* Применение анимации к элементу */
+
+.header__square-pic {
+  animation: rotation 20s infinite linear; /* Название анимации, продолжительность 20 секунд, бесконечное повторение */
+}
+
 .description {
   margin: 0;
 }
@@ -126,7 +141,7 @@
 }
 
 .digits {
-  margin: 100px 0 0 0;
+  margin: 0 0 0 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -427,4 +442,75 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+}
+
+
+
+
+
+
+
+.techniques {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  padding: 100px 0;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  width: 920px;
+
+  flex-flow: row wrap;
+  list-style-type: none;
+  
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+
+.cards__item {
+  
+  flex-direction: column;
+ width: 240px;
+
+  text-align: center;
+  margin-right: 100px;
+  justify-content: center; 
+
+}
+  
+
+
+.cards__item:nth-child(3) {
+  margin: 0; /* Убираем маргин (внешние отступы) у третьей ячейки */
+}
+
+.cards_image {
+  margin: 60px auto 43px auto;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%; /* Задает радиус, чтобы обрезать изображение в форме круга */
+  width: 200px; /* Задайте желаемую ширину и высоту для обрезанной картинки */
+  height: 200px;
+}
+
+.cards__title {
+  margin:0 auto 16px auto;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.cards__desription {
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  margin:0 auto 0 auto;
+
 }
