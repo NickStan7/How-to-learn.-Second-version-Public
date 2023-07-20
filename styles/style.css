@@ -54,6 +54,16 @@
 .header__link {
   text-decoration: none;
   color: #2f80ed;
+   /* Задаем начальную прозрачность ссылки */
+   opacity: 1;
+   /* Добавляем плавный переход прозрачности при изменении состояния */
+   transition: opacity 0.3s ease;
+ 
+}
+
+.header__link:hover {
+  /* Устанавливаем более прозрачную прозрачность при наведении курсора */
+  opacity: 0.5;
 }
 
 .header__main-illustration {
@@ -253,7 +263,15 @@
   top: 50%;
   color: #2f80ed;
   text-decoration: none;
+  opacity: 1;
+  /* Добавляем плавный переход прозрачности при изменении состояния */
+  transition: opacity 0.3s ease;
 
+}
+
+.feynman__link:hover {
+ /* Устанавливаем более прозрачную прозрачность при наведении курсора */
+ opacity: 0.5;
 }
 
 .feynman__photo {
@@ -422,7 +440,11 @@
   flex-direction: column;
   padding-top: 20px;
   padding-bottom: 16px;
+  opacity: 1;
+
 }
+
+
 
 
 .footer__column-link {
@@ -431,12 +453,19 @@
   font-weight: normal;
   text-decoration: none;
   color: white;
+  opacity: 1;
+  /* Добавляем плавный переход прозрачности при изменении состояния */
+  transition: opacity 0.3s ease;
 
 }
 
 .footer__column-link:hover {
-  color: #2f80ed;
+ /* Устанавливаем более прозрачную прозрачность при наведении курсора */
+ opacity: 0.5;
+ color: #2f80ed;
 }
+
+
 
 .footer_social-icon {
   padding-right: 10px;
@@ -568,6 +597,16 @@ margin: 80px auto 0 auto;
 
 .resources__link {
 text-decoration: none;
+opacity: 1;
+/* Добавляем плавный переход прозрачности при изменении состояния */
+transition: opacity 0.3s ease;
+
+}
+
+.resources__link:hover {
+/* Устанавливаем более прозрачную прозрачность при наведении курсора */
+opacity: 0.5;
+color: #2f80ed;
 }
 
 .khan {
@@ -639,4 +678,18 @@ text-decoration: none;
   line-height: 24px;
   font-size: 30px;
   font-weight: normal;
-}
+  color: #2f80ed;
+  height: 30px;
+  
+  opacity: 1;
+  /* Добавляем плавный переход прозрачности при изменении состояния */
+  transition: opacity 0.3s ease;
+  
+  }
+  
+  .khan__buy-link:hover {
+  /* Устанавливаем более прозрачную прозрачность при наведении курсора */
+  opacity: 0.5;
+  color: #2f80ed;
+  }
+  
