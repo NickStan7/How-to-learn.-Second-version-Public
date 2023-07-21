@@ -1,0 +1,15 @@
+.header__square-pic {
+  height: 568px;
+  width: 568px;
+  z-index: -2;
+  background-color: #2f80ed;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  z-index: 1;
+/* Применение анимации к элементу */
+}
+
+.header__square-pic {
+  animation: rotation 20s infinite linear; /* Название анимации, продолжительность 20 секунд, бесконечное повторение */
+}
