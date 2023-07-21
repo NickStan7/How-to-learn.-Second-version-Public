@@ -1,4 +1,4 @@
-.table_theme_dark {
+.table__theme_dark {
 
   display: grid;
   grid-template-columns: repeat(5, 1fr);
