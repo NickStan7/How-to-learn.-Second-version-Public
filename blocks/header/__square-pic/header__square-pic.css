@@ -7,8 +7,6 @@
   right: 0;
   top: 64px;
 /* Применение анимации к элементу */
-}
 
-.header__square-pic {
   animation: rotation 20s infinite linear; /* Название анимации, продолжительность 20 секунд, бесконечное повторение */
 }
