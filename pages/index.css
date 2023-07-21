@@ -31,7 +31,7 @@
 @import url(../blocks/table/__heading/__theme_dark/table__heading_theme_dark.css);
 @import url(../blocks/table/__text/table__text.css);
 @import url(../blocks/table/__text/__theme_dark/table__text_theme_dark.css);
-@import url(../blocks/table/__theme_dark/table__theme_dark.css);
+@import url(../blocks/table/_theme_dark/table_theme_dark.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/_footer/logo_place_footer.css);
 @import url(../blocks/logo/_place/_header/logo_place_header.css);
@@ -54,7 +54,7 @@
 @import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/__title/cards__title.css);
-@import url(../blocks/cards/_image/cards_image.css);
+@import url(../blocks/cards/__image/cards__image.css);
 @import url(../blocks/techniques/techniques.css);
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__iframe/video__iframe.css);
