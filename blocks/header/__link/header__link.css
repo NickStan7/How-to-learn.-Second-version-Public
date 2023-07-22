@@ -1,11 +1,10 @@
 .header__link {
   text-decoration: none;
   color: #2f80ed;
-   /* Задаем начальную прозрачность ссылки */
-   opacity: 1;
-   /* Добавляем плавный переход прозрачности при изменении состояния */
-   transition: opacity 0.3s ease;
- 
+  /* Задаем начальную прозрачность ссылки */
+  opacity: 1;
+  /* Добавляем плавный переход прозрачности при изменении состояния */
+  transition: opacity 0.3s ease;
 }
 
 .header__link:hover {
