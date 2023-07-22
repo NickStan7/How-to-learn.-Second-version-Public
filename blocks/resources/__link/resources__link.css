@@ -3,11 +3,9 @@
   opacity: 1;
   /* Добавляем плавный переход прозрачности при изменении состояния */
   transition: opacity 0.3s ease;
-  
-  }
-  
-  .resources__link:hover {
+}
+
+.resources__link:hover {
   /* Устанавливаем более прозрачную прозрачность при наведении курсора */
   opacity: 0.5;
-  color: #2f80ed;
-  }
+}
