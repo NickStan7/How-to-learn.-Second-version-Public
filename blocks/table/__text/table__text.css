@@ -5,6 +5,7 @@
   margin: 20px 0 20px 0;
 }
 
-.table__text:nth-last-child(-n+2) {
+.table__text:nth-last-child(-n + 2) {
   margin-bottom: 0;
 }
+

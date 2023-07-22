@@ -1,5 +1,4 @@
 .table_theme_dark {
-
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   justify-content: space-between;
@@ -9,6 +8,4 @@
   color: white;
   padding-left: 0;
   padding: 0;
-
-
 }

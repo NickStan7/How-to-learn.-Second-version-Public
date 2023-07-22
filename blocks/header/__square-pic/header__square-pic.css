@@ -6,6 +6,4 @@
   position: absolute;
   right: 0;
   top: 64px;
-/* Применение анимации к элементу */
-  animation: rotation 20s infinite linear; /* Название анимации, продолжительность 20 секунд, бесконечное повторение */
 }
