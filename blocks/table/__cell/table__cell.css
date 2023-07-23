@@ -1,9 +1,5 @@
 .table__cell {
   width: 250px;
-  margin: 0 0 60px 0;
+  margin-top: 60px;
   padding: 0;
-}
-
-.table__cell:nth-last-child(-n + 4) {
-  margin: 0;
 }
