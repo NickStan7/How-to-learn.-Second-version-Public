@@ -38,7 +38,7 @@
 
 Для использования этого сайта не требуется устанавливать ничего дополнительного. Просто откройте следующую ссылку в вашем веб-браузере:
 
-[https://nickstan7.github.io/russian-travel-bootcamp/](https://nickstan7.github.io/russian-travel-bootcamp/)
+[https://nickstan7.github.io/How-to-learn.-Second-version-Public/](https://nickstan7.github.io/How-to-learn.-Second-version-Public/)
 
 ## Использование
 
